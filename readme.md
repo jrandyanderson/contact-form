@@ -1,6 +1,6 @@
 # Randy Anderson Form
 
-This is my submission to the HCI Take Home Test. 
+This is my submission to the a Take Home Test from a potential employer. The task was to build a multi-step form that collects data and processes it via AJAX within WordPress.
 
 To be honest, I would normally find a working solution in already written plugins to save time and money, so in this case I would have used Gravity Forms to create a multi-step form that submits via AJAX and collects the user's info.
 
