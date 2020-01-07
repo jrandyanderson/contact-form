@@ -1,0 +1,26 @@
+/*_typography.scss*/
+
+#ra-form {
+	color: $font-primary-color;
+	font-size: $font-primary-size;
+	font-family: $font-primary;
+	font-weight: $font-primary-weight;
+	line-height: 3em;
+
+	h2 {
+		background: $green;
+		margin: 0 0 ((2.7 / 2.6) * 1em);
+		padding: ((3.2 / 2.6) * 1em) 0;
+		font-size: 2.6em;
+		color: white;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	#ra-results {
+		font-size: 2.2em;
+		text-align: center;
+		color: $red;
+		margin: 1em 0;
+	}
+}

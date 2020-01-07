@@ -1,0 +1,131 @@
+/* BASE - Base Variable file along with Typography.
+========================================================================== */
+/*_variables.scss */
+/* Body Text Family */
+/* Body Text Styles */
+/* Colors */
+/*_typography.scss*/
+/* line 3, sass/base/_typography.scss */
+#ra-form {
+  color: black;
+  font-size: 62.5%;
+  font-family: "Avenir", "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 3em;
+}
+/* line 10, sass/base/_typography.scss */
+#ra-form h2 {
+  background: #64bcb0;
+  margin: 0 0 1.0384615385em;
+  padding: 1.2307692308em 0;
+  font-size: 2.6em;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 20, sass/base/_typography.scss */
+#ra-form #ra-results {
+  font-size: 2.2em;
+  text-align: center;
+  color: #8c3364;
+  margin: 1em 0;
+}
+
+/* MODULES - Re-usable site elements.
+========================================================================== */
+/*_form.scss */
+/* line 3, sass/modules/_form.scss */
+#ra-form {
+  background: #f4e97f;
+  box-shadow: 0em 2em 3em 0.08em rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 72em;
+  overflow: auto;
+}
+/* line 10, sass/modules/_form.scss */
+#ra-form section {
+  display: none;
+}
+/* line 14, sass/modules/_form.scss */
+#ra-form input, #ra-form button#ra-button-next {
+  width: 91.6666666667%;
+  font-family: "Avenir", "Lato", sans-serif;
+  font-size: 2.2em;
+  letter-spacing: 0.01em;
+  display: block;
+  margin: 0 auto 1.0384615385em;
+  cursor: pointer;
+}
+/* line 24, sass/modules/_form.scss */
+#ra-form input {
+  box-shadow: inset 0em 0.05em 0.08em 0.08em rgba(0, 0, 0, 0.5);
+  background: white;
+  padding: 0.7692307692em 0.5769230769em;
+  color: black;
+}
+/* line 30, sass/modules/_form.scss */
+#ra-form input::placeholder {
+  color: black;
+}
+/* line 34, sass/modules/_form.scss */
+#ra-form input.invalid {
+  border: 5px solid #8c3364;
+}
+/* line 39, sass/modules/_form.scss */
+#ra-form button {
+  border-radius: 0;
+  text-shadow: none;
+  box-shadow: none;
+  border: 0;
+  padding: 0.7692307692em 0.5769230769em;
+  text-transform: uppercase;
+  color: white;
+}
+/* line 48, sass/modules/_form.scss */
+#ra-form button#ra-button-next {
+  background: #8c3364;
+  font-family: "Avenir", "Lato", sans-serif;
+  font-weight: 400;
+}
+/* line 54, sass/modules/_form.scss */
+#ra-form button#ra-button-back {
+  background: transparent;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* line 3, sass/modules/_progress.scss */
+.progress .progress-bar {
+  width: 91.6666666667%;
+  margin: 0 auto 2.1428571429em;
+  background: #faf3c0;
+  border-radius: 7px;
+  height: 1.4em;
+  overflow: hidden;
+}
+/* line 12, sass/modules/_progress.scss */
+.progress .progress-status {
+  width: 0;
+  height: 1.4em;
+  background: #64bcb0;
+}
+/* line 17, sass/modules/_progress.scss */
+.progress .progress-status.step-2 {
+  width: 33.3%;
+}
+/* line 21, sass/modules/_progress.scss */
+.progress .progress-status.step-3 {
+  width: 66.6%;
+}
+/* line 26, sass/modules/_progress.scss */
+.progress p {
+  margin-bottom: 0;
+  font-size: 2em;
+  text-align: center;
+}
